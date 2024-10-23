@@ -102,11 +102,11 @@ metadata:
 spec:
   type: ClusterIP
   ports:
-  - name: jaeger-collector-http
+  - name: http-jaeger-collector
     port: 14268
     targetPort: 14268
     protocol: TCP
-  - name: jaeger-collector-grpc
+  - name: grpc-jaeger-collector
     port: 14250
     targetPort: 14250
     protocol: TCP
